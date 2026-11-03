@@ -1,0 +1,6 @@
+{
+  "name": "RecEval Precision - Movie Recommendation System",
+  "description": "Interactive research benchmark dashboard evaluating FCM Hybrid vs NBCF collaborative filtering models on MovieLens 100K.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

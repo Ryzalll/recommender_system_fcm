@@ -1,0 +1,155 @@
+{
+  "fold": 1,
+  "users": [
+    {
+      "id": 45,
+      "profile": { "age": 29, "gender": "M", "occupation": "engineer", "zip": "94107" },
+      "trainCount": 148,
+      "testCount": 12,
+      "affinity": [
+        { "genre": "Sci-Fi", "pct": 54 },
+        { "genre": "Drama", "pct": 28 },
+        { "genre": "Film-Noir", "pct": 18 }
+      ],
+      "models": {
+        "fcm": {
+          "recommendations": [
+            { "rank": 1, "movieId": 101, "predictedRating": 4.9, "score": 0.982, "hit": true, "actualRating": 5.0 },
+            { "rank": 2, "movieId": 102, "predictedRating": 4.9, "score": 0.978, "hit": true, "actualRating": 5.0 },
+            { "rank": 3, "movieId": 103, "predictedRating": 4.8, "score": 0.965, "hit": false, "actualRating": null },
+            { "rank": 4, "movieId": 104, "predictedRating": 4.8, "score": 0.958, "hit": true, "actualRating": 4.8 },
+            { "rank": 5, "movieId": 105, "predictedRating": 4.7, "score": 0.949, "hit": true, "actualRating": 4.7 },
+            { "rank": 6, "movieId": 106, "predictedRating": 4.7, "score": 0.941, "hit": true, "actualRating": 5.0 },
+            { "rank": 7, "movieId": 107, "predictedRating": 4.7, "score": 0.938, "hit": false, "actualRating": null },
+            { "rank": 8, "movieId": 108, "predictedRating": 4.6, "score": 0.929, "hit": true, "actualRating": 4.5 },
+            { "rank": 9, "movieId": 109, "predictedRating": 4.6, "score": 0.918, "hit": false, "actualRating": null },
+            { "rank": 10, "movieId": 110, "predictedRating": 4.5, "score": 0.912, "hit": true, "actualRating": 4.5 },
+            { "rank": 11, "movieId": 114, "predictedRating": 4.5, "score": 0.908, "hit": true, "actualRating": 4.8 },
+            { "rank": 12, "movieId": 111, "predictedRating": 4.4, "score": 0.895, "hit": true, "actualRating": 4.6 },
+            { "rank": 13, "movieId": 116, "predictedRating": 4.4, "score": 0.891, "hit": false, "actualRating": null },
+            { "rank": 14, "movieId": 117, "predictedRating": 4.3, "score": 0.884, "hit": false, "actualRating": null },
+            { "rank": 15, "movieId": 118, "predictedRating": 4.3, "score": 0.879, "hit": false, "actualRating": null },
+            { "rank": 16, "movieId": 119, "predictedRating": 4.3, "score": 0.872, "hit": false, "actualRating": null },
+            { "rank": 17, "movieId": 120, "predictedRating": 4.2, "score": 0.865, "hit": false, "actualRating": null },
+            { "rank": 18, "movieId": 112, "predictedRating": 4.3, "score": 0.861, "hit": true, "actualRating": 4.5 },
+            { "rank": 19, "movieId": 129, "predictedRating": 4.1, "score": 0.852, "hit": false, "actualRating": null },
+            { "rank": 20, "movieId": 113, "predictedRating": 4.1, "score": 0.844, "hit": true, "actualRating": 4.4 }
+          ],
+          "testItems": [
+            { "movieId": 101, "actualRating": 5.0, "predictedRating": 4.9, "modelRank": 1, "timestamp": 1697274000 },
+            { "movieId": 102, "actualRating": 5.0, "predictedRating": 4.9, "modelRank": 2, "timestamp": 1698915600 },
+            { "movieId": 104, "actualRating": 4.8, "predictedRating": 4.8, "modelRank": 4, "timestamp": 1695888000 },
+            { "movieId": 105, "actualRating": 4.7, "predictedRating": 4.7, "modelRank": 5, "timestamp": 1702285200 },
+            { "movieId": 106, "actualRating": 5.0, "predictedRating": 4.7, "modelRank": 6, "timestamp": 1696492800 },
+            { "movieId": 111, "actualRating": 4.6, "predictedRating": 4.4, "modelRank": 12, "timestamp": 1700384400 },
+            { "movieId": 112, "actualRating": 4.5, "predictedRating": 4.3, "modelRank": 18, "timestamp": 1701421200 },
+            { "movieId": 110, "actualRating": 4.5, "predictedRating": 4.5, "modelRank": 10, "timestamp": 1697792400 },
+            { "movieId": 108, "actualRating": 4.5, "predictedRating": 4.6, "modelRank": 8, "timestamp": 1702890000 },
+            { "movieId": 113, "actualRating": 4.4, "predictedRating": 4.1, "modelRank": 20, "timestamp": 1699434000 },
+            { "movieId": 114, "actualRating": 4.8, "predictedRating": 4.5, "modelRank": 11, "timestamp": 1697706000 },
+            { "movieId": 115, "actualRating": 4.3, "predictedRating": 3.9, "modelRank": 29, "timestamp": 1694678400 }
+          ],
+          "metrics": {
+            "10": { "hits": 7, "precision": 0.700, "recall": 0.583, "f1": 0.636, "dcg": 3.825, "ndcg": 0.842 },
+            "20": { "hits": 11, "precision": 0.550, "recall": 0.917, "f1": 0.688, "dcg": 5.861, "ndcg": 0.833 },
+            "rating": { "rmse": 0.384, "mae": 0.283, "loss": 0.147, "mse": 0.147 }
+          }
+        },
+        "nbcf": {
+          "recommendations": [
+            { "rank": 1, "movieId": 101, "predictedRating": 4.7, "score": 0.920, "hit": true, "actualRating": 5.0 },
+            { "rank": 2, "movieId": 103, "predictedRating": 4.6, "score": 0.912, "hit": false, "actualRating": null },
+            { "rank": 3, "movieId": 102, "predictedRating": 4.6, "score": 0.905, "hit": true, "actualRating": 5.0 },
+            { "rank": 4, "movieId": 117, "predictedRating": 4.5, "score": 0.890, "hit": false, "actualRating": null },
+            { "rank": 5, "movieId": 104, "predictedRating": 4.5, "score": 0.884, "hit": true, "actualRating": 4.8 },
+            { "rank": 6, "movieId": 120, "predictedRating": 4.4, "score": 0.871, "hit": false, "actualRating": null },
+            { "rank": 7, "movieId": 105, "predictedRating": 4.4, "score": 0.865, "hit": true, "actualRating": 4.7 },
+            { "rank": 8, "movieId": 107, "predictedRating": 4.3, "score": 0.850, "hit": false, "actualRating": null },
+            { "rank": 9, "movieId": 106, "predictedRating": 4.3, "score": 0.844, "hit": true, "actualRating": 5.0 },
+            { "rank": 10, "movieId": 127, "predictedRating": 4.2, "score": 0.835, "hit": false, "actualRating": null }
+          ],
+          "testItems": [
+            { "movieId": 101, "actualRating": 5.0, "predictedRating": 4.7, "modelRank": 1, "timestamp": 1697274000 },
+            { "movieId": 102, "actualRating": 5.0, "predictedRating": 4.6, "modelRank": 3, "timestamp": 1698915600 },
+            { "movieId": 104, "actualRating": 4.8, "predictedRating": 4.5, "modelRank": 5, "timestamp": 1695888000 },
+            { "movieId": 105, "actualRating": 4.7, "predictedRating": 4.4, "modelRank": 7, "timestamp": 1702285200 },
+            { "movieId": 106, "actualRating": 5.0, "predictedRating": 4.3, "modelRank": 9, "timestamp": 1696492800 },
+            { "movieId": 111, "actualRating": 4.6, "predictedRating": 4.0, "modelRank": 15, "timestamp": 1700384400 },
+            { "movieId": 112, "actualRating": 4.5, "predictedRating": 3.9, "modelRank": 18, "timestamp": 1701421200 },
+            { "movieId": 110, "actualRating": 4.5, "predictedRating": 4.2, "modelRank": 11, "timestamp": 1697792400 },
+            { "movieId": 108, "actualRating": 4.5, "predictedRating": 4.1, "modelRank": 13, "timestamp": 1702890000 },
+            { "movieId": 113, "actualRating": 4.4, "predictedRating": 3.8, "modelRank": 20, "timestamp": 1699434000 },
+            { "movieId": 114, "actualRating": 4.8, "predictedRating": 4.0, "modelRank": 16, "timestamp": 1697706000 },
+            { "movieId": 115, "actualRating": 4.3, "predictedRating": 3.6, "modelRank": 35, "timestamp": 1694678400 }
+          ],
+          "metrics": {
+            "10": { "hits": 5, "precision": 0.500, "recall": 0.417, "f1": 0.455, "dcg": 3.652, "ndcg": 0.804 },
+            "20": { "hits": 11, "precision": 0.550, "recall": 0.917, "f1": 0.688, "dcg": 5.340, "ndcg": 0.759 },
+            "rating": { "rmse": 0.442, "mae": 0.340, "loss": 0.195, "mse": 0.195 }
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "profile": { "age": 24, "gender": "M", "occupation": "technician", "zip": "85711" },
+      "trainCount": 135,
+      "testCount": 14,
+      "affinity": [
+        { "genre": "Drama", "pct": 41 },
+        { "genre": "Action", "pct": 28 },
+        { "genre": "Comedy", "pct": 21 }
+      ],
+      "models": {
+        "fcm": {
+          "recommendations": [
+            { "rank": 1, "movieId": 121, "predictedRating": 5.0, "score": 0.975, "hit": true, "actualRating": 5.0 },
+            { "rank": 2, "movieId": 122, "predictedRating": 4.8, "score": 0.952, "hit": true, "actualRating": 4.0 },
+            { "rank": 3, "movieId": 123, "predictedRating": 4.8, "score": 0.948, "hit": true, "actualRating": 5.0 },
+            { "rank": 4, "movieId": 124, "predictedRating": 4.7, "score": 0.932, "hit": true, "actualRating": 4.0 },
+            { "rank": 5, "movieId": 125, "predictedRating": 4.6, "score": 0.925, "hit": false, "actualRating": null },
+            { "rank": 6, "movieId": 117, "predictedRating": 4.6, "score": 0.918, "hit": true, "actualRating": 4.0 },
+            { "rank": 7, "movieId": 127, "predictedRating": 4.5, "score": 0.910, "hit": false, "actualRating": null },
+            { "rank": 8, "movieId": 130, "predictedRating": 4.5, "score": 0.902, "hit": false, "actualRating": null },
+            { "rank": 9, "movieId": 104, "predictedRating": 4.4, "score": 0.895, "hit": false, "actualRating": null },
+            { "rank": 10, "movieId": 111, "predictedRating": 4.4, "score": 0.887, "hit": true, "actualRating": 4.0 }
+          ],
+          "testItems": [
+            { "movieId": 121, "actualRating": 5.0, "predictedRating": 5.0, "modelRank": 1, "timestamp": 875072484 },
+            { "movieId": 122, "actualRating": 4.0, "predictedRating": 4.8, "modelRank": 2, "timestamp": 875072490 },
+            { "movieId": 123, "actualRating": 5.0, "predictedRating": 4.8, "modelRank": 3, "timestamp": 875072510 },
+            { "movieId": 124, "actualRating": 4.0, "predictedRating": 4.7, "modelRank": 4, "timestamp": 875072550 },
+            { "movieId": 117, "actualRating": 4.0, "predictedRating": 4.6, "modelRank": 6, "timestamp": 875072600 },
+            { "movieId": 111, "actualRating": 4.0, "predictedRating": 4.4, "modelRank": 10, "timestamp": 875072620 }
+          ],
+          "metrics": {
+            "10": { "hits": 6, "precision": 0.600, "recall": 0.429, "f1": 0.500, "dcg": 3.420, "ndcg": 0.753 },
+            "20": { "hits": 9, "precision": 0.450, "recall": 0.643, "f1": 0.529, "dcg": 4.820, "ndcg": 0.685 },
+            "rating": { "rmse": 0.492, "mae": 0.410, "loss": 0.242, "mse": 0.242 }
+          }
+        },
+        "nbcf": {
+          "recommendations": [
+            { "rank": 1, "movieId": 123, "predictedRating": 4.7, "score": 0.940, "hit": true, "actualRating": 5.0 },
+            { "rank": 2, "movieId": 121, "predictedRating": 4.6, "score": 0.925, "hit": true, "actualRating": 5.0 },
+            { "rank": 3, "movieId": 130, "predictedRating": 4.6, "score": 0.910, "hit": false, "actualRating": null },
+            { "rank": 4, "movieId": 122, "predictedRating": 4.4, "score": 0.895, "hit": true, "actualRating": 4.0 },
+            { "rank": 5, "movieId": 125, "predictedRating": 4.3, "score": 0.880, "hit": false, "actualRating": null },
+            { "rank": 6, "movieId": 124, "predictedRating": 4.2, "score": 0.870, "hit": true, "actualRating": 4.0 }
+          ],
+          "testItems": [
+            { "movieId": 121, "actualRating": 5.0, "predictedRating": 4.6, "modelRank": 2, "timestamp": 875072484 },
+            { "movieId": 122, "actualRating": 4.0, "predictedRating": 4.4, "modelRank": 4, "timestamp": 875072490 },
+            { "movieId": 123, "actualRating": 5.0, "predictedRating": 4.7, "modelRank": 1, "timestamp": 875072510 },
+            { "movieId": 124, "actualRating": 4.0, "predictedRating": 4.2, "modelRank": 6, "timestamp": 875072550 }
+          ],
+          "metrics": {
+            "10": { "hits": 5, "precision": 0.500, "recall": 0.357, "f1": 0.417, "dcg": 2.980, "ndcg": 0.656 },
+            "20": { "hits": 8, "precision": 0.400, "recall": 0.571, "f1": 0.471, "dcg": 4.150, "ndcg": 0.590 },
+            "rating": { "rmse": 0.568, "mae": 0.470, "loss": 0.323, "mse": 0.323 }
+          }
+        }
+      }
+    }
+  ]
+}
